@@ -1,15 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
     <ProgressBar
         android:id="@+id/progressBar"
         style="?android:attr/progressBarStyleHorizontal"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:layout_alignParentBottom="true"
+        android:layout_width="220dip"
+        android:layout_height="220dip"
+
         android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
         android:max="500"
         android:progress="0"
         android:progressDrawable="@drawable/circular"
@@ -26,7 +27,7 @@
             android:layout_centerVertical="true"
             android:text="200"
             android:textColor="@color/colorAccent"
-            android:textSize="400px"
+            android:textSize="200px"
             android:textStyle="bold" />
     </RelativeLayout>
-</FrameLayout>
+</RelativeLayout>
